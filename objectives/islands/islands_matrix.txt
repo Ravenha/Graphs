@@ -1,0 +1,15 @@
+Write a function that takes a 2D binary array and returns the number of 1 islands.
+An island consists of 1s that are connected to the north, south, east or west. For example:
+islands = [[0, 1, 0, 1, 0],
+           [1, 1, 0, 1, 1],
+           [0, 0, 1, 0, 0],
+           [1, 0, 1, 0, 0],
+           [1, 1, 0, 0, 0]]
+islands[0][1]
+islands[1][1]
+1. Describe in graphs terminology
+- What are our nodes? 1s
+- When do we have an edge to another node? if one step away, to NSEW
+What do we call a group of 1s/nodes? Connected components
+2. Build your graph or define getNeighbors()
+3. Choose your algorithm

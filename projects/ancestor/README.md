@@ -1,6 +1,6 @@
 # Earliest Ancestor
 
-This is a take-home coding challenge from a top tech company. The spec is providied verbatim.
+This is a take-home coding challenge from a top tech company. The spec is provided verbatim.
 
 
 ## Problem
@@ -45,4 +45,3 @@ Clarifications:
 * There are no "repeated" ancestors – if two individuals are connected, it is by exactly one path.
 * IDs will always be positive integers.
 * A parent may have any number of children.
-
